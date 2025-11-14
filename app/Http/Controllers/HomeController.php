@@ -22,4 +22,10 @@ class HomeController extends Controller
      public function toko(){
         return view('toko');
     }
+
+    //admin
+
+     public function dashboard(){
+        return view('admin.dashboard');
+     }
 }
